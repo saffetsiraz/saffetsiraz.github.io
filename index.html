@@ -5,64 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lucuxis</title>
 <meta name="description" content="Lucuxis makes mobile puzzle games. Vacuum Blocks: Puzzle Game on Google Play, its privacy policy, terms of service and support.">
-<link rel="icon" type="image/png" href="vacuumblocks-icon.png">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #eef2fb;
-    --card: #ffffff;
-    --text: #172036;
-    --muted: #55607a;
-    --line: #dde3f0;
-    --accent: #2563eb;
-    --accent-text: #ffffff;
-    --chip: #eef3ff;
-    --chip-text: #1d4ed8;
-    --shadow: rgba(23, 32, 54, 0.18);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0f1422;
-      --card: #171e30;
-      --text: #e8ecf6;
-      --muted: #a2acc4;
-      --line: #27304a;
-      --accent: #6d9bff;
-      --accent-text: #0b1020;
-      --chip: #1f2943;
-      --chip-text: #b9cdff;
-      --shadow: rgba(0, 0, 0, 0.45);
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  }
-  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 32px; }
-  header h1 { margin: 0; font-size: 2rem; letter-spacing: -0.01em; }
-  header p { margin: 4px 0 0; color: var(--muted); }
-  a { color: var(--accent); }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 24px; margin-top: 24px; }
-  .card p { margin: 0; }
-  .card h2 { margin: 0 0 6px; font-size: 1.1rem; line-height: 1.3; }
-  .game { display: flex; gap: 20px; align-items: flex-start; }
-  .game img { width: 112px; height: 112px; border-radius: 24px; flex: none; box-shadow: 0 6px 18px var(--shadow); }
-  .game h2 { font-size: 1.3rem; }
-  .game p { margin-bottom: 16px; color: var(--muted); }
-  .links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
-  .links a { display: inline-block; padding: 8px 14px; border-radius: 999px; background: var(--chip); color: var(--chip-text); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
-  .links a.primary { background: var(--accent); color: var(--accent-text); }
-  .links a:hover, .links a:focus-visible { text-decoration: underline; }
-  footer { margin-top: 32px; color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between; }
-  @media (max-width: 480px) {
-    main { padding-top: 32px; }
-    .game { flex-direction: column; }
-    .game img { width: 96px; height: 96px; border-radius: 22px; }
-  }
-</style>
+<link rel="icon" type="image/png" href="/vacuumblocks-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 <main>
@@ -72,14 +16,14 @@
   </header>
 
   <section class="card game" aria-labelledby="vacuum-blocks">
-    <img src="vacuumblocks-icon.png" width="112" height="112" alt="Vacuum Blocks: Puzzle Game icon">
+    <img src="/vacuumblocks-icon.png" width="112" height="112" alt="Vacuum Blocks: Puzzle Game icon">
     <div>
       <h2 id="vacuum-blocks">Vacuum Blocks: Puzzle Game</h2>
       <p>Send the right vacuum, clear the pixel art and solve 110 colorful puzzles.</p>
       <ul class="links">
         <li><a class="primary" href="https://play.google.com/store/apps/details?id=com.lucuxis.vacuum.blocks.puzzle.game">Google Play</a></li>
-        <li><a href="https://saffetsiraz.github.io/Games/vacuumblocks/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="https://saffetsiraz.github.io/Games/vacuumblocks/termsofservice/">Terms of Service</a></li>
+        <li><a href="/vacuumblocks/privacypolicy/">Privacy Policy</a></li>
+        <li><a href="/vacuumblocks/termsofservice/">Terms of Service</a></li>
       </ul>
     </div>
   </section>

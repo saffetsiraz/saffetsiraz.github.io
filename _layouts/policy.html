@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<link rel="icon" type="image/png" href="/vacuumblocks-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<main class="doc">
+  <nav class="crumbs" aria-label="Site">
+    <a href="/">Lucuxis</a>
+    {% if page.game %}<span aria-hidden="true">/</span>
+    <span>{{ page.game }}</span>{% endif %}
+  </nav>
+  <article class="card policy">
+{{ content }}
+  </article>
+  <footer>
+    <span>&copy; 2026 Lucuxis</span>
+    <a href="mailto:saffet57siraz@gmail.com">saffet57siraz@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

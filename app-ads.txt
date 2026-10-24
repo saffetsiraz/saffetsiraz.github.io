@@ -1,0 +1,6 @@
+# Authorized sellers for apps by Lucuxis whose developer website is https://saffetsiraz.github.io/
+# Google AdMob (mediation)
+google.com, pub-1238585164917948, DIRECT, f08c47fec0942fa0
+# Unity Ads (bidding through AdMob mediation)
+unity.com, 3422847, DIRECT, 96cabb5fbdde37a7
+OWNERDOMAIN=saffetsiraz.github.io

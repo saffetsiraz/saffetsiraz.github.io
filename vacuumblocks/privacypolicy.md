@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Vacuum Blocks Puzzle Game - Privacy Policy
-game: "Vacuum Blocks: Puzzle Game"
+game: "Vacuum Blocks Puzzle Game"
 permalink: /vacuumblocks/privacypolicy/
 ---
 

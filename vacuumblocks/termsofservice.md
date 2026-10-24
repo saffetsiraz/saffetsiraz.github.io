@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Vacuum Blocks Puzzle Game - Terms of Service
-game: "Vacuum Blocks: Puzzle Game"
+game: "Vacuum Blocks Puzzle Game"
 permalink: /vacuumblocks/termsofservice/
 ---
 

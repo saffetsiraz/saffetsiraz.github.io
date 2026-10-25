@@ -6,76 +6,117 @@
 <title>Lucuxis</title>
 <meta name="description" content="Lucuxis makes mobile puzzle games. Vacuum Blocks, Merge Buddies, Block Zen and Parking Order Puzzle on Google Play, their privacy policies, terms of service and support.">
 <link rel="icon" type="image/png" href="/vacuumblocks-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<main>
-  <header>
-    <h1>Lucuxis</h1>
-    <p>Mobile puzzle games.</p>
-  </header>
+<div class="sky">
+  <div class="wrap">
+    <nav class="top" aria-label="Site">
+      <a class="logo" href="/">Lucuxis</a>
+      <div class="top-links">
+        <a href="#games">Games</a>
+        <a href="#support">Support</a>
+        <a class="btn" href="https://play.google.com/store/apps/dev?id=5377612812916460577">Google Play</a>
+      </div>
+    </nav>
 
-  <section class="card game" aria-labelledby="vacuum-blocks">
-    <img src="/vacuumblocks-icon.png" width="112" height="112" alt="Vacuum Blocks Puzzle Game icon">
-    <div>
-      <h2 id="vacuum-blocks">Vacuum Blocks Puzzle Game</h2>
-      <p>Send the right vacuum, clear the pixel art and solve 110 colorful puzzles.</p>
-      <ul class="links">
-        <li><a class="primary" href="https://play.google.com/store/apps/details?id=com.lucuxis.vacuum.blocks.puzzle.game">Google Play</a></li>
-        <li><a href="/vacuumblocks/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="/vacuumblocks/termsofservice/">Terms of Service</a></li>
-      </ul>
+    <header class="hero">
+      <div class="hero-text">
+        <span class="badge">Mobile puzzle games</span>
+        <h1>Tiny puzzles.<br>Big smiles.</h1>
+        <p>Lucuxis makes colorful puzzle games for Android. Vacuum pixel art, merge silly buddies, relax with blocks or clear a traffic jam.</p>
+        <div class="hero-actions">
+          <a class="btn big" href="#games">Play our games</a>
+          <a class="plain" href="#support">Get support</a>
+        </div>
+      </div>
+      <div class="stickers" aria-hidden="true">
+        <img src="/vacuumblocks-icon.png" width="256" height="256" alt="">
+        <img src="/mergebuddies-icon.png" width="256" height="256" alt="">
+        <img src="/blockzen-icon.png" width="256" height="256" alt="">
+        <img src="/parkingorder-icon.png" width="256" height="256" alt="">
+      </div>
+    </header>
+  </div>
+</div>
+
+<main class="sheet" id="games">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Our games</h2>
+      <span>4 games · free on Google Play</span>
     </div>
-  </section>
 
-  <section class="card game" aria-labelledby="merge-buddies">
-    <img src="/mergebuddies-icon.png" width="112" height="112" alt="Merge Buddies icon">
-    <div>
-      <h2 id="merge-buddies">Merge Buddies</h2>
-      <p>Drop, stack and merge objects in this fun and addictive 2D puzzle game.</p>
-      <ul class="links">
-        <li><a class="primary" href="https://play.google.com/store/apps/details?id=com.Merge.Fellas.Drop.Master.MergeBuddies">Google Play</a></li>
-        <li><a href="/mergebuddies/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="/mergebuddies/termsofservice/">Terms of Service</a></li>
-      </ul>
+    <div class="games">
+      <section class="game" aria-labelledby="vacuum-blocks">
+        <img src="/vacuumblocks-icon.png" width="124" height="124" alt="Vacuum Blocks Puzzle Game icon">
+        <div class="game-body">
+          <h3 id="vacuum-blocks">Vacuum Blocks Puzzle Game</h3>
+          <p>Send the right vacuum, clear the pixel art and solve 110 colorful puzzles.</p>
+          <ul class="game-links">
+            <li><a class="btn" href="https://play.google.com/store/apps/details?id=com.lucuxis.vacuum.blocks.puzzle.game">Get it on Google Play</a></li>
+            <li><a class="chip" href="/vacuumblocks/privacypolicy/">Privacy Policy</a></li>
+            <li><a class="chip" href="/vacuumblocks/termsofservice/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="game yellow" aria-labelledby="merge-buddies">
+        <img src="/mergebuddies-icon.png" width="124" height="124" alt="Merge Buddies icon">
+        <div class="game-body">
+          <h3 id="merge-buddies">Merge Buddies</h3>
+          <p>Drop, stack and merge objects in this fun and addictive 2D puzzle game.</p>
+          <ul class="game-links">
+            <li><a class="btn" href="https://play.google.com/store/apps/details?id=com.Merge.Fellas.Drop.Master.MergeBuddies">Get it on Google Play</a></li>
+            <li><a class="chip" href="/mergebuddies/privacypolicy/">Privacy Policy</a></li>
+            <li><a class="chip" href="/mergebuddies/termsofservice/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="game purple" aria-labelledby="block-zen">
+        <img src="/blockzen-icon.png" width="124" height="124" alt="Block Zen: Relax Puzzle Game icon">
+        <div class="game-body">
+          <h3 id="block-zen">Block Zen: Relax Puzzle Game</h3>
+          <p>Relax with addictive block puzzle gameplay. Play offline anytime.</p>
+          <ul class="game-links">
+            <li><a class="btn" href="https://play.google.com/store/apps/details?id=com.Lucuxis.BlockZenRelaxPuzzleGame">Get it on Google Play</a></li>
+            <li><a class="chip" href="/blockzen/privacypolicy/">Privacy Policy</a></li>
+            <li><a class="chip" href="/blockzen/termsofservice/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="game red" aria-labelledby="parking-order">
+        <img src="/parkingorder-icon.png" width="124" height="124" alt="Parking Order Puzzle: Car Game icon">
+        <div class="game-body">
+          <h3 id="parking-order">Parking Order Puzzle: Car Game</h3>
+          <p>Move the cars in the right order, clear the traffic jam and park them all.</p>
+          <ul class="game-links">
+            <li><a class="btn" href="https://play.google.com/store/apps/details?id=com.SaffetSiraz.car.parking.order.puzzle">Get it on Google Play</a></li>
+            <li><a class="chip" href="/parkingorder/privacypolicy/">Privacy Policy</a></li>
+            <li><a class="chip" href="/parkingorder/termsofservice/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <section class="card game" aria-labelledby="block-zen">
-    <img src="/blockzen-icon.png" width="112" height="112" alt="Block Zen: Relax Puzzle Game icon">
-    <div>
-      <h2 id="block-zen">Block Zen: Relax Puzzle Game</h2>
-      <p>Relax with addictive block puzzle gameplay. Play offline anytime.</p>
-      <ul class="links">
-        <li><a class="primary" href="https://play.google.com/store/apps/details?id=com.Lucuxis.BlockZenRelaxPuzzleGame">Google Play</a></li>
-        <li><a href="/blockzen/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="/blockzen/termsofservice/">Terms of Service</a></li>
-      </ul>
-    </div>
-  </section>
+    <section class="support" id="support" aria-labelledby="support-title">
+      <div>
+        <h2 id="support-title">Need a hand?</h2>
+        <p>Questions, feedback and privacy requests. We read every message.</p>
+      </div>
+      <a href="mailto:saffet57siraz@gmail.com">saffet57siraz@gmail.com</a>
+    </section>
 
-  <section class="card game" aria-labelledby="parking-order">
-    <img src="/parkingorder-icon.png" width="112" height="112" alt="Parking Order Puzzle: Car Game icon">
-    <div>
-      <h2 id="parking-order">Parking Order Puzzle: Car Game</h2>
-      <p>Move the cars in the right order, clear the traffic jam and park them all.</p>
-      <ul class="links">
-        <li><a class="primary" href="https://play.google.com/store/apps/details?id=com.SaffetSiraz.car.parking.order.puzzle">Google Play</a></li>
-        <li><a href="/parkingorder/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="/parkingorder/termsofservice/">Terms of Service</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="card" aria-labelledby="support">
-    <h2 id="support">Support</h2>
-    <p>Questions, feedback and privacy requests: <a href="mailto:saffet57siraz@gmail.com">saffet57siraz@gmail.com</a></p>
-  </section>
-
-  <footer>
-    <span>&copy; 2026 Lucuxis</span>
-    <a href="https://play.google.com/store/apps/dev?id=5377612812916460577">More games by Lucuxis on Google Play</a>
-  </footer>
+    <footer>
+      <span>&copy; 2026 Lucuxis</span>
+      <a href="https://play.google.com/store/apps/dev?id=5377612812916460577">More games by Lucuxis on Google Play</a>
+    </footer>
+  </div>
 </main>
 </body>
 </html>

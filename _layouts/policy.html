@@ -5,22 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
 <link rel="icon" type="image/png" href="/vacuumblocks-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<main class="doc">
-  <nav class="crumbs" aria-label="Site">
-    <a href="/">Lucuxis</a>
-    {% if page.game %}<span aria-hidden="true">/</span>
-    <span>{{ page.game }}</span>{% endif %}
-  </nav>
-  <article class="card policy">
+<div class="sky slim">
+  <div class="wrap">
+    <nav class="top" aria-label="Site">
+      <a class="logo" href="/">Lucuxis</a>
+      <div class="top-links">
+        <a href="/#games">Games</a>
+        <a href="/#support">Support</a>
+      </div>
+    </nav>
+  </div>
+</div>
+<main class="sheet doc">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Lucuxis</a>
+      {% if page.game %}<span aria-hidden="true">/</span>
+      <span>{{ page.game }}</span>{% endif %}
+    </nav>
+    <article class="policy">
 {{ content }}
-  </article>
-  <footer>
-    <span>&copy; 2026 Lucuxis</span>
-    <a href="mailto:saffet57siraz@gmail.com">saffet57siraz@gmail.com</a>
-  </footer>
+    </article>
+    <footer>
+      <span>&copy; 2026 Lucuxis</span>
+      <a href="mailto:saffet57siraz@gmail.com">saffet57siraz@gmail.com</a>
+    </footer>
+  </div>
 </main>
 </body>
 </html>

@@ -8,7 +8,6 @@ unity.com, 6095579, DIRECT, 96cabb5fbdde37a7
 ironsrc.com, 391855, DIRECT
 OWNERDOMAIN=saffetsiraz.github.io
 
-# The remaining lines are moved unchanged from https://k1765cc99.app-ads-txt.com/app-ads.txt,
 # the file Block Zen, Merge Buddies and Parking Order Puzzle used until October 2026.
 152media.info, 152M312, RESELLER
 152media.info, 152M499, RESELLER
@@ -883,3 +882,4 @@ video.unrulymedia.com, 947824792, RESELLER
 vidoomy.com, 8953515, RESELLER
 xandr.com, 17779, RESELLER
 zetaglobal.net, 525, RESELLER
+onlinemediasolutions.com, 23120, RESELLER, b3868b187e4b6402

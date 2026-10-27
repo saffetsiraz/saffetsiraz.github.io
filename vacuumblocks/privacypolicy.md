@@ -6,7 +6,7 @@ permalink: /vacuumblocks/privacypolicy/
 ---
 
 **Last updated**  
-October 22, 2026
+October 27, 2026
 
 # Privacy Policy for Vacuum Blocks Puzzle Game
 
@@ -23,7 +23,7 @@ This policy explains what information is collected when you play Vacuum Blocks P
 Game progress, settings and your privacy choices are saved on your device. They are not sent to us. If Android's backup is turned on for your device, Android may keep a copy of this data in your Google account and restore it when you reinstall the Game; this backup is managed by Google under its own policy. Uninstalling the Game deletes the data on the device.
 
 ## 3. Advertising
-The Game uses Google AdMob to show ads. Unity Ads and AppLovin may also serve ads through AdMob mediation. These partners collect, on their own servers, information such as:
+The Game uses Google AdMob to show ads. Unity Ads and Liftoff Monetize (Vungle) may also serve ads through AdMob mediation. These partners collect, on their own servers, information such as:
 - your device's advertising ID and other device identifiers (for example the app set ID),
 - your IP address and an approximate location derived from it,
 - device information (model, operating system, language) and diagnostics,
@@ -32,7 +32,7 @@ The Game uses Google AdMob to show ads. Unity Ads and AppLovin may also serve ad
 They use it to show ads, to measure ad performance, to prevent fraud and, if you allow it, to personalise ads. Each partner processes this data under its own privacy policy:
 - Google: [policies.google.com/privacy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
 - Unity: [unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy)
-- AppLovin: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- Liftoff (Vungle): [liftoff.ai/privacy-policy](https://liftoff.ai/privacy-policy/)
 
 You can reset or delete your advertising ID, or opt out of personalised ads, in your Android settings (Settings > Google > Ads, or Settings > Privacy > Ads, depending on your device).
 

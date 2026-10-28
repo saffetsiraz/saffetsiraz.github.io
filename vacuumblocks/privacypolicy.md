@@ -6,7 +6,7 @@ permalink: /vacuumblocks/privacypolicy/
 ---
 
 **Last updated**  
-October 27, 2026
+October 28, 2026
 
 # Privacy Policy for Vacuum Blocks Puzzle Game
 
@@ -15,7 +15,7 @@ This policy explains what information is collected when you play Vacuum Blocks P
 ## 1. Summary
 - The Game has no user accounts. We do not ask for your name, e-mail address, phone number or contacts.
 - Your progress (levels, coins, boosters, lives, settings) is stored on your device.
-- The Game shows ads and offers optional in-app purchases. Our advertising, analytics and purchase partners collect some device and usage information as described below.
+- The Game shows ads and offers optional in-app purchases. Our advertising, ad measurement, analytics and purchase partners collect some device and usage information as described below.
 - The leaderboard and achievements use Google Play Games and are optional. If you use them, Google signs you in with your Play Games profile (section 8).
 - Where the law requires it, the Game asks for your consent before ads are personalised, and you can change your choice at any time under Settings > Privacy Options.
 
@@ -34,11 +34,13 @@ They use it to show ads, to measure ad performance, to prevent fraud and, if you
 - Unity: [unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy)
 - Liftoff (Vungle): [liftoff.ai/privacy-policy](https://liftoff.ai/privacy-policy/)
 
+**Measuring our ad campaigns.** We advertise the Game in other apps and on websites, for example through Google Ads, Meta and AppLovin. To learn which ads lead to installs and how players who came from each campaign use the Game, we use AppsFlyer, a measurement service that processes this data on our behalf. The AppsFlyer SDK in the Game sends AppsFlyer your advertising ID and other device identifiers (for example the app set ID and an identifier created by AppsFlyer), your IP address and an approximate location derived from it, device information (model, operating system, language) and technical data used to detect fraud, how the Game was installed (for example the Google Play install referrer and, if the Facebook or Instagram app is on your device, Meta's install referrer), and a few in-game events: opening the Game, finishing the first tutorial, winning certain levels, purchases (product, price and currency) and the revenue earned from the ads you see. When the Game starts, the SDK may download its settings from AppsFlyer and, on the first start, read Meta's install referrer from the Facebook or Instagram app; it sends the install and in-game events only after the Game has applied your privacy choices (section 4). AppsFlyer passes some of these events, with your advertising ID, to the ad networks we advertise with (Google, Meta and AppLovin) so they can measure and improve our campaigns. AppsFlyer keeps this data for no longer than 24 months. AppsFlyer privacy policy: [appsflyer.com/legal/services-privacy-policy](https://www.appsflyer.com/legal/services-privacy-policy/)
+
 You can reset or delete your advertising ID, or opt out of personalised ads, in your Android settings (Settings > Google > Ads, or Settings > Privacy > Ads, depending on your device).
 
 ## 4. Consent and your choices
-- **European Economic Area, United Kingdom and Switzerland:** the Game uses Google's User Messaging Platform to ask for your consent before ads are personalised. If you do not agree, you still see ads, but they are not personalised. If you do not allow information to be stored on your device, the Game also does not use analytics, crash reporting or remote configuration (sections 5 and 6).
-- **United States:** residents of states with privacy laws can opt out of the "sale" or "sharing" of personal information and of targeted advertising. The Game passes your choice on to our ad partners.
+- **European Economic Area, United Kingdom and Switzerland:** the Game uses Google's User Messaging Platform to ask for your consent before ads are personalised. If you do not agree, you still see ads, but they are not personalised. If you do not allow information to be stored on your device, the Game also does not use ad campaign measurement, analytics, crash reporting or remote configuration (sections 3, 5 and 6). The Game also passes your consent choices to AppsFlyer, which applies them when it shares data with ad networks.
+- **United States:** residents of states with privacy laws can opt out of the "sale" or "sharing" of personal information and of targeted advertising. The Game passes your choice on to our ad partners; if you opt out, AppsFlyer does not share your data with ad networks.
 - You can review or change your choice at any time under Settings > Privacy Options in the Game. The option appears where the law requires it.
 
 ## 5. Analytics and crash reports
